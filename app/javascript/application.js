@@ -8,6 +8,8 @@ import Greeting from "./components/Greeting";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
 function App() {
   return (
     <BrowserRouter>
@@ -18,9 +20,10 @@ function App() {
   );
 }
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App/>
-  </Provider>,
-  document.getElementById('root'),
-);
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>
+)

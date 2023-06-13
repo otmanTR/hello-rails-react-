@@ -272,3 +272,128 @@ Processing by Api::V1::GreetingsController#index as HTML
 Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 689)
 
 
+Started GET "/" for 127.0.0.1 at 2023-06-13 16:55:00 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 64.6ms | Allocations: 20181)
+Completed 200 OK in 83ms (Views: 70.2ms | ActiveRecord: 0.0ms | Allocations: 27284)
+
+
+Started GET "/users" for ::1 at 2023-06-13 17:02:05 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:02:49 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 472.6ms | Allocations: 26961)
+Completed 200 OK in 494ms (Views: 479.8ms | ActiveRecord: 0.0ms | Allocations: 34064)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:03:22 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2067)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 2423)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:03:24 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 1979)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2274)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:04:27 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 375.3ms | Allocations: 4772)
+Completed 200 OK in 377ms (Views: 376.5ms | ActiveRecord: 0.0ms | Allocations: 5067)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:05:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 125.5ms | Allocations: 24820)
+Completed 200 OK in 147ms (Views: 130.6ms | ActiveRecord: 0.0ms | Allocations: 31923)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:09:00 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 551.7ms | Allocations: 27057)
+Completed 200 OK in 573ms (Views: 558.4ms | ActiveRecord: 0.0ms | Allocations: 34160)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:12:23 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 2118)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 2474)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:16:23 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 363.8ms | Allocations: 25111)
+Completed 200 OK in 387ms (Views: 372.9ms | ActiveRecord: 0.0ms | Allocations: 32213)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-06-13 17:16:28 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 200 OK in 34ms (Views: 0.2ms | ActiveRecord: 12.8ms | Allocations: 17409)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-06-13 17:16:31 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 806)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:16:36 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2148)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2470)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 17:16:39 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 1979)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2274)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-eefa6749ce058dae628d434e031c9d582b62161d1d6566da1322d3c0f308f70c.map"):
+  

@@ -16,7 +16,7 @@ const initialState = {
     }
 })
 
-export const greetingsSlice = createSlice({
+ const greetingsSlice = createSlice({
     name: 'greetings',
     initialState,
     reducers: {
@@ -29,3 +29,5 @@ export const greetingsSlice = createSlice({
     },
   
   });
+
+  export default greetingsSlice
