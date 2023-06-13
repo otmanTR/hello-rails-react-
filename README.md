@@ -32,7 +32,7 @@
 ### Key Features <a name="key-features"></a>
 
 -Creating API end point by Rails
--Using API with webpach in React 
+-Using API data and display in React 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

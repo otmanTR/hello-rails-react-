@@ -25,7 +25,7 @@ const initialState = {
       builder
         .addCase(getRandomGreeting.fulfilled, (state, action) => {
          state.greeting = action.payload
-        });console.log('message here', greeting)
+        });
     },
 
   });
