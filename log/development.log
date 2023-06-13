@@ -84,3 +84,82 @@ Migrating to CreateGreeting (20230613061322)
   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(8263577524942271595)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-06-13 09:37:00 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 65.6ms | Allocations: 24920)
+Completed 200 OK in 79ms (Views: 69.5ms | ActiveRecord: 0.0ms | Allocations: 31990)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 09:38:20 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2620)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3846)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 09:40:16 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2589)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (1.7ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "greeting1"], ["created_at", "2023-06-13 06:42:40.321117"], ["updated_at", "2023-06-13 06:42:40.321117"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.3ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "greeting2"], ["created_at", "2023-06-13 06:43:01.319730"], ["updated_at", "2023-06-13 06:43:01.319730"]]
+  [1m[36mTRANSACTION (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.3ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "greeting3"], ["created_at", "2023-06-13 06:43:35.435513"], ["updated_at", "2023-06-13 06:43:35.435513"]]
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.3ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "greeting4"], ["created_at", "2023-06-13 06:43:36.184704"], ["updated_at", "2023-06-13 06:43:36.184704"]]
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.3ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "greeting5"], ["created_at", "2023-06-13 06:43:36.193221"], ["updated_at", "2023-06-13 06:43:36.193221"]]
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2023-06-13 09:44:28 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1967)
+Completed 200 OK in 5ms (Views: 5.0ms | Allocations: 2278)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 09:52:10 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1963)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 2255)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 09:57:26 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1988)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 2276)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 10:10:29 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 1972)
+Completed 200 OK in 24ms (Views: 23.4ms | Allocations: 2260)
+
+
