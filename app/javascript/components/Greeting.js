@@ -4,17 +4,22 @@ import { getRandomGreeting } from "../redux/greetings/greetingsSlice";
 
 const Greeting = () => {
     const dispatch = useDispatch();
-    const  greeting  = useSelector((state) => state.greeting);
+    const greeting = useSelector((state) => state.greetings.greeting);
 
     useEffect(() => {
         dispatch(getRandomGreeting());
-    }, [dispatch]);
-    console.log(greeting)
-    return(
-    
-     <h1>{greeting.message}</h1>
-    
-     )
-    }
+    }, []);
 
+        if (greeting) {
+            return (
+                <div>
+                    <h1>{greeting.message}</h1>
+                </div>
+            )
+    } else {
+        return (
+            <h1>No message saved...</h1>
+        )
+    }
+}
 export default Greeting;

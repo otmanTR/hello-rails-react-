@@ -939,3 +939,226 @@ Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 2275)
   
 ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
   
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:24:55 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 95.6ms | Allocations: 23306)
+Completed 200 OK in 118ms (Views: 105.9ms | ActiveRecord: 0.0ms | Allocations: 30498)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:25:07 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2158)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2514)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:26:01 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1984)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 2275)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:26:56 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2149)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2483)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:27:03 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 1984)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 2277)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:27:43 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1980)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2272)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:27:48 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1976)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2267)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:29:14 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1968)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2259)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:29:40 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1976)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2267)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:33:31 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 1964)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 2252)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:34:02 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 1978)
+Completed 200 OK in 8ms (Views: 7.9ms | Allocations: 2266)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-06-13 21:34:10 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.8ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 200 OK in 61ms (Views: 2.1ms | ActiveRecord: 19.1ms | Allocations: 20570)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:37:31 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2006)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2312)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:43:05 +0300
+Processing by RootController#index as HTML
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/root_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2248)
+Completed 200 OK in 30ms (Views: 6.5ms | ActiveRecord: 5.2ms | Allocations: 8609)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:43:32 +0300
+Processing by RootController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/root_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1982)
+Completed 200 OK in 11ms (Views: 6.6ms | ActiveRecord: 0.5ms | Allocations: 2927)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:51:28 +0300
+  
+ActionController::RoutingError (uninitialized constant GreetingController):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:52:13 +0300
+Processing by RootController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/root_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2250)
+Completed 200 OK in 24ms (Views: 5.8ms | ActiveRecord: 5.9ms | Allocations: 8651)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:52:53 +0300
+Processing by RootController#index as HTML
+  [1m[36mGreeting Load (1.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/root_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1976)
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 1.3ms | Allocations: 2933)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-13 21:52:56 +0300
+Processing by RootController#index as HTML
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/root_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1982)
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.6ms | Allocations: 2820)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-775c2b1a6496f87b0ce0e58e7d1b1339382a339ceed52fa40eeea79f5730db50.map"):
+  
