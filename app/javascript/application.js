@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Greeting />} />
+        <Route path="/" element={<Greeting />}/>
       </Routes>
     </BrowserRouter>
   );

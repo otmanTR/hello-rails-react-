@@ -17,7 +17,7 @@ const initialState = {
 })
 
  const greetingsSlice = createSlice({
-    name: 'greetings',
+    name: 'greeting',
     initialState,
     reducers: {
     },
@@ -25,9 +25,9 @@ const initialState = {
       builder.addCase(
         getRandomGreeting.fulfilled,
         (state, action) => action.payload,
-      );
+      );console.log('message here', getRandomGreeting)
     },
-  
-  });
+    
+  }); 
 
-  export default greetingsSlice
+  export default greetingsSlice.reducer
