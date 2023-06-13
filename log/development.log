@@ -163,3 +163,74 @@ Processing by RootController#index as HTML
 Completed 200 OK in 24ms (Views: 23.4ms | Allocations: 2260)
 
 
+Started GET "/" for 127.0.0.1 at 2023-06-13 10:52:24 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 56.9ms | Allocations: 20759)
+Completed 200 OK in 78ms (Views: 63.1ms | ActiveRecord: 0.0ms | Allocations: 27862)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-13 10:52:27 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2146)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2502)
+
+
+Started GET "/users" for ::1 at 2023-06-13 10:59:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/" for ::1 at 2023-06-13 10:59:40 +0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 2159)
+Completed 200 OK in 26ms (Views: 24.9ms | Allocations: 2487)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-06-13 11:01:59 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (2.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 29.6ms | Allocations: 22609)
+
+
+  
+NoMethodError (undefined method `text' for #<Greeting id: 4, message: "greeting4", created_at: "2023-06-13 06:43:36.184704000 +0000", updated_at: "2023-06-13 06:43:36.184704000 +0000">):
+  
+app/controllers/api/v1/greetings_controller.rb:4:in `index'
+Started GET "/api/v1/greetings" for ::1 at 2023-06-13 11:02:48 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 200 OK in 29ms (Views: 0.5ms | ActiveRecord: 9.4ms | Allocations: 3046)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-06-13 11:02:51 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.9ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 200 OK in 7ms (Views: 1.4ms | ActiveRecord: 0.9ms | Allocations: 710)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-06-13 11:02:53 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (2.0ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 2.0ms | Allocations: 689)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-06-13 11:02:55 +0300
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/greetings_controller.rb:3:in `index'
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 1.4ms | Allocations: 702)
+
+
